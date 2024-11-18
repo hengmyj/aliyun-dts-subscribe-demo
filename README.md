@@ -3,3 +3,5 @@
 其中java版本建议使用发布到maven仓库的sdk版本，版本参考 https://s01.oss.sonatype.org/#nexus-search;quick~dts-new-subscribe-sdk  java sdk源码在：https://github.com/aliyun/aliyun-dts-subscribe-sdk-java/tree/master
 
 如果你发现任何bug或者有其他语言的订阅demo实例可以提供，欢迎留言或者提交commit
+
+更新Demo 结构体解析
