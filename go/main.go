@@ -188,7 +188,7 @@ func (consumer *ConsumerGroupHandler) ConsumeClaim(session sarama.ConsumerGroupS
 
 			log.Printf("Message on topic:%s partition:%d offset:%d\n", message.Topic, message.Partition, message.Offset)
 			_j, _ := t.MarshalJSON()
-			log.Printf("++++++operation: %s", string(_j))
+			log.Printf("message: %s", string(_j))
 
 			session.MarkMessage(message, "")
 
